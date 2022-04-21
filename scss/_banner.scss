@@ -1,0 +1,49 @@
+@import "vars";
+
+.banner__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 630px;
+}
+.banner__details {
+  display: flex;
+  align-items: center;
+}
+.banner__title {
+  max-width: 400px;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 64px;
+}
+.banner__lamp {
+  margin-left: 50px;
+}
+.banner__description {
+  margin-top: 30px;
+  width: 550px;
+  color: #8f95a5;
+  font-size: 1.5rem;
+}
+.banner__props {
+  margin-top: 80px;
+}
+.banner__button {
+  padding: 25px 100px;
+  background-color: #263238;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.banner__button:hover {
+  background-color: transparent;
+  border: 2px solid #263238;
+  color: #263238;
+}
+.banner__picture {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}

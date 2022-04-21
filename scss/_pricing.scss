@@ -1,0 +1,68 @@
+@import "vars";
+
+.pricing {
+  margin-top: 200px;
+}
+.pricing__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pricing__headline {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 80px;
+}
+.pricing__blocks {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.pricing__block {
+  display: flex;
+  flex-direction: column;
+}
+.pricing__image {
+  max-width: 310px;
+  max-height: 310px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.pricing__picture {
+  width: 100%;
+  max-width: 310px;
+}
+.pricing__title {
+  font-size: 1.8rem;
+  margin-top: 25px;
+  font-style: 600;
+  line-height: 48px;
+}
+.pricing__description {
+  margin-top: 20px;
+  max-width: 350px;
+  color: #8f95a5;
+}
+.pricing__price {
+  flex: 1;
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.pricing__count {
+  padding: 5px 15px;
+  background-color: #eeeeee;
+  display: flex;
+}
+.pricing__number {
+  font-size: 1.2rem;
+}
+.pricing__number:before {
+  content: "£";
+}
+.pricing__month {
+  margin-left: 10px;
+}

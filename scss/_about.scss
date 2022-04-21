@@ -1,0 +1,43 @@
+@import "vars";
+
+.about {
+  margin-top: 200px;
+}
+.about__headline {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 80px;
+}
+.about__information {
+  width: 540px;
+}
+.about__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.about__description {
+  margin-top: 25px;
+  color: #8f95a5;
+  font-size: 1.2rem;
+}
+.about__statistic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.about__number {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 80px;
+}
+.about__element {
+  text-align: center;
+  color: #8f95a5;
+}
+.about__picture {
+  width: 100%;
+  max-width: 400px;
+}
